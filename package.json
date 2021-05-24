@@ -1,0 +1,17 @@
+{
+"name": "vox-populi",
+  "version": "1.0.0",
+  "description": "vox populi es una tienda especializada en remeras con los mejores diseños del mundo del anime y la cultura pop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/styles.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "Jonatan Pereyra",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
