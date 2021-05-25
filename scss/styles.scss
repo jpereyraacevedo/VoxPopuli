@@ -1,3 +1,5 @@
+$colorazul: violet;
+
 * {
     margin: 0px;
     font-family: 'Inter', sans-serif;
@@ -13,7 +15,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: #252525;
+    background-color: $colorazul;
     padding-right: 5px;
 
     .navbar-brand {
@@ -84,17 +86,31 @@ section {
 
 footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: #252525;
     color: whitesmoke;
     padding: 10px;
     margin-top: 5px;
-    justify-content: center;
+    text-align: center;
+
+    .fa-facebook-square {
+        color: #FF00FF;
+        font-size: 30px;
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-bottom: 2px;
+    }
+
+    .fa-instagram {
+        color: #FF00FF;
+        font-size: 33px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
 }
 
 a {
     color: #FF00FF !important;
 }
 
-$color-primario: #1212e7;
-
+$orange: #fda12a;

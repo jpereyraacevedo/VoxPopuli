@@ -1,0 +1,140 @@
+* {
+  margin: 0px;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #252525;
+  background-image: -webkit-gradient(linear, right top, left top, from(#252525), color-stop(#4B4B4B), to(#252525));
+  background-image: linear-gradient(to left, #252525, #4B4B4B, #252525);
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: violet;
+  padding-right: 5px;
+}
+
+header .navbar-brand {
+  color: #F2ECFF !important;
+  font-weight: 700 !important;
+  font-family: 'koho', sans-serif;
+  font-size: 36px;
+}
+
+header .navbar-brand:hover {
+  color: #FF00FF !important;
+}
+
+header .nav-link:hover {
+  font-size: 103% !important;
+  color: #F2ECFF !important;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section h1 {
+  text-align: center;
+  color: #F2ECFF;
+  font-family: 'koho', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+section h5 {
+  color: #F2ECFF !important;
+}
+
+section div img {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  width: 100%;
+}
+
+section #card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section #card .card {
+  background-color: #4B4B4B;
+  margin: 1%;
+  text-align: center;
+}
+
+section #card .card .btn-primary {
+  background-color: #252525;
+  border: solid 0px;
+  font-weight: 700;
+}
+
+section #card .card .btn-primary:hover {
+  color: #252525 !important;
+  background-color: #FF00FF !important;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #252525;
+  color: whitesmoke;
+  padding: 10px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+footer .fa-facebook-square {
+  color: #FF00FF;
+  font-size: 30px;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-bottom: 2px;
+}
+
+footer .fa-instagram {
+  color: #FF00FF;
+  font-size: 33px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+a {
+  color: #FF00FF !important;
+}
+/*# sourceMappingURL=styles.css.map */

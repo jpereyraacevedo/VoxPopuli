@@ -1,5 +1,5 @@
 {
-"name": "vox-populi",
+  "name": "vox-populi",
   "version": "1.0.0",
   "description": "vox populi es una tienda especializada en remeras con los mejores diseños del mundo del anime y la cultura pop",
   "main": "index.js",
@@ -13,5 +13,14 @@
   "dependencies": {
     "node-sass": "^5.0.0",
     "nodemon": "^2.0.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpereyraacevedo/VoxPopuli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jpereyraacevedo/VoxPopuli/issues"
+  },
+  "homepage": "https://github.com/jpereyraacevedo/VoxPopuli#readme",
+  "devDependencies": {}
 }
