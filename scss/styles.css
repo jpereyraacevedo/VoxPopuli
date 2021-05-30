@@ -97,13 +97,13 @@ section #card .card {
 
 section #card .card .btn-primary {
   font-family: 'inconsolata', monospace;
-  background-color: #535660 !important;
+  background-color: #241823 !important;
   border: solid 0px;
   font-weight: 700;
 }
 
 section #card .card .btn-primary:hover {
-  color: #535660 !important;
+  color: #241823 !important;
   background-color: #FF00FF !important;
 }
 
