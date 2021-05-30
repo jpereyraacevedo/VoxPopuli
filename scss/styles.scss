@@ -2,12 +2,13 @@ $colorfucsia: #FF00FF;
 
 * {
     margin: 0px;
-    font-family: 'Inter', sans-serif;
+    // font-family: 'Inter', sans-serif;
+    font-family: 'montserrat';
 }
 
 body {
     background-color: #252525;
-    background-image: linear-gradient(to left, #252525, #4B4B4B, #252525);
+    background-image: linear-gradient(to left, #535660, #3F4246, #535660);
 }
 
 header {
@@ -21,7 +22,6 @@ header {
     .navbar-brand {
         color: #F2ECFF !important;
         font-weight: 700 !important;
-        font-family: 'koho', sans-serif;
         font-size: 36px;
     }
 
@@ -31,7 +31,7 @@ header {
 
     .nav-link:hover {
         font-size: 103% !important;
-        color: #F2ECFF !important;
+        color: $colorfucsia !important;
     }
 }
 
@@ -42,7 +42,7 @@ section {
     h1 {
         text-align: center;
         color: #F2ECFF;
-        font-family: 'koho', sans-serif;
+        font-family: 'Inconsolata', monospace;
         text-transform: uppercase;
         font-weight: 700;
         padding-top: 1%;
@@ -51,6 +51,8 @@ section {
 
     h5 {
         color: #F2ECFF !important;
+        font-family: 'Inconsolata', monospace;
+        text-transform: uppercase !important;
     }
 
     div img {
@@ -66,18 +68,20 @@ section {
         justify-content: center;
 
         .card {
-            background-color: #4B4B4B;
+            background-color: #252525;
             margin: 1%;
             text-align: center;
+            border: solid 1px $colorfucsia;
 
             .btn-primary {
-                background-color: #252525;
+                font-family: 'inconsolata', monospace;
+                background-color: #535660 !important;
                 border: solid 0px;
                 font-weight: 700;
             }
 
             .btn-primary:hover {
-                color: #252525 !important;
+                color: #535660 !important;
                 background-color: $colorfucsia !important;
             }
         }
