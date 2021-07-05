@@ -1,4 +1,6 @@
 $colorfucsia: #FF00FF;
+$color-dark: #252525;
+$font-letter: #F2ECFF;
 
 * {
     margin: 0px;
@@ -61,6 +63,39 @@ section {
         overflow: hidden;
         width: 100%;
     }
+
+    #input {
+        display: flex;
+        justify-content: center;
+
+        .card {
+            border: none;
+        }
+
+        .card-body {
+            background-color: $color-dark;
+            color: $font-letter;
+        }
+
+        .btn-primary {
+            margin-top: 10px;
+            font-family: 'inconsolata', monospace;
+            background-color: #241823 !important;
+            border: solid 0px;
+            font-weight: 700;
+            color: $colorfucsia;
+        }
+
+        .btn-primary:hover {
+            color: #241823 !important;
+            background-color: $colorfucsia !important;
+        }
+
+        .form-control {
+            text-align: center;
+            margin-top: 2%;
+        }
+    } 
 
     #card {
         display: flex;

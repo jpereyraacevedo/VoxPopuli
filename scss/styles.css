@@ -75,6 +75,43 @@ section div img {
   width: 100%;
 }
 
+section #input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section #input .card {
+  border: none;
+}
+
+section #input .card-body {
+  background-color: #252525;
+  color: #F2ECFF;
+}
+
+section #input .btn-primary {
+  margin-top: 10px;
+  font-family: 'inconsolata', monospace;
+  background-color: #241823 !important;
+  border: solid 0px;
+  font-weight: 700;
+  color: #FF00FF;
+}
+
+section #input .btn-primary:hover {
+  color: #241823 !important;
+  background-color: #FF00FF !important;
+}
+
+section #input .form-control {
+  text-align: center;
+  margin-top: 2%;
+}
+
 section #card {
   display: -webkit-box;
   display: -ms-flexbox;
