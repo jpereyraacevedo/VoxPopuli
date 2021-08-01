@@ -112,6 +112,10 @@ section #input .form-control {
   margin-top: 2%;
 }
 
+section #input .card-title {
+  color: #FF00FF !important;
+}
+
 section #card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -142,6 +146,37 @@ section #card .card .btn-primary {
 section #card .card .btn-primary:hover {
   color: #241823 !important;
   background-color: #FF00FF !important;
+}
+
+section #card .card .card-text {
+  color: #8BF8B8 !important;
+  background-color: #6E858B !important;
+}
+
+section #card .card .card-title {
+  color: #8BF8B8 !important;
+  background-color: #6E858B !important;
+}
+
+section #adding-html {
+  background-color: #252525 !important;
+  border: solid 1px #FF00FF !important;
+  margin: 1%;
+}
+
+section #adding-html .accordion {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+section #adding-html .accordion-button {
+  background-color: #3F4246 !important;
+  color: #F2ECFF !important;
+  text-align: center !important;
+}
+
+section #adding-html .accordion-body {
+  background-color: #252525 !important;
 }
 
 footer {

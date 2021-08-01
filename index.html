@@ -16,7 +16,6 @@
         href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Montserrat:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="scss/styles.css">
-    <script src="index.js"></script>
     <title>Vox Populi</title>
 </head>
 
@@ -65,9 +64,8 @@
                 <img src="imagenes/remeras/11.png" class="card-img-top" alt="Remera de vox populi">
                 <div class="card-body">
                     <h5 class="card-title">GODZILLA</h5>
-                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p> -->
-                    <a href="#" class="btn btn-primary">Galeria</a>
+                    <p class="card-text">$799,00</p>
+                    <button type="button" id="remera1" class="btn btn-primary addToCart">Elegir</button>
                 </div>
             </div>
             <!--Comienzo de las tarjetas de inicio-->
@@ -75,9 +73,8 @@
                 <img src="imagenes/remeras/22.png" class="card-img-top" alt="Remera de vox populi">
                 <div class="card-body">
                     <h5 class="card-title">DIGIMON</h5>
-                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p> -->
-                    <a href="#" class="btn btn-primary">Galeria</a>
+                    <p class="card-text">$899,00</p>
+                    <button type="button" id="remera2" class="btn btn-primary addToCart">Elegir</button>
                 </div>
             </div>
             <!--Comienzo de las tarjetas de inicio-->
@@ -85,24 +82,31 @@
                 <img src="imagenes/remeras/33.png" class="card-img-top" alt="Remera de vox populi">
                 <div class="card-body">
                     <h5 class="card-title">KIMETSU</h5>
-                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p> -->
-                    <a href="#" class="btn btn-primary">Galeria</a>
+                    <p class="card-text">$849,00</p>
+                    <button type="button" id="remera3" class="btn btn-primary addToCart">Elegir</button>>
                 </div>
             </div>
         </div>
         <div id="input">
-        <div class="card text-center align-text-center" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <input class="form-control" type="text" placeholder="Ingrese su nombre" aria-label="default input example">
-                <input class="form-control" type="text" placeholder="Ingrese el diseño que desea" aria-label="default input example">
-                <input class="form-control" type="text" placeholder="¿Necesita envio?" aria-label="default input example">
-                <input class="btn btn-primary" type="submit" value="Enviar">
+            <div class="card text-center align-text-center" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Ingrese que remera desea comprar</h5>
+                    <p class="card-text">Los envios en CABA son gratuitos.</p>
+                    <form id="form" action="">
+                        <input id="nombre" class="form-control" type="text" placeholder="Ingrese su nombre"
+                            aria-label="default input example">
+                        <input id="envio" class="form-control" type="text" placeholder="¿Sos de CABA?"
+                            aria-label="default input example">
+                        <input class="btn btn-primary" type="submit" value="Enviar">
+                    </form>
+                </div>
             </div>
         </div>
+
+        <div id="adding-html" class="alert alert-success d-flex align-items-center centrar-elementos" role="alert"
+            style="display:none">
         </div>
+
     </section>
     <footer>
         <div>
@@ -113,7 +117,8 @@
             Todos los derechos reservados © 2021
         </div>
     </footer>
-    <!-- <script src="Untitled-1.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
     </script>
