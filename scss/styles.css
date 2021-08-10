@@ -162,6 +162,39 @@ section #adding-html {
   background-color: #252525 !important;
   border: solid 1px #FF00FF !important;
   margin: 1%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+section #adding-html div p {
+  background-color: #F2ECFF;
+  color: #252525;
+  margin: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section #adding-html div .buttonDelete {
+  margin: 1em;
+  background-color: #FF00FF;
+}
+
+section #adding-html div .cartElementQuantity {
+  background-color: #252525;
+  color: #FF00FF;
+}
+
+section #adding-html div .card-background {
+  background-color: #535660;
+  color: #6E858B;
+  margin-top: 1em;
 }
 
 section #adding-html .accordion {
@@ -176,7 +209,7 @@ section #adding-html .accordion-button {
 }
 
 section #adding-html .accordion-body {
-  background-color: #252525 !important;
+  background-color: #252525;
 }
 
 footer {
